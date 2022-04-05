@@ -15,7 +15,7 @@ sql_count = "SELECT COUNT(*) FROM dbo.GL_INT_FURN;"
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\i6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\01 NUMAR\GL_INT_FURN.xlsx",
+    r"FILE PATH",
     sheet_name="FURN",
     converters={
         "COD": str,
@@ -65,7 +65,7 @@ sql_count = "SELECT COUNT(*) FROM dbo.GL_INT_NUMAR_GAINED;"
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\i6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\01 NUMAR\GL_INT_NUMAR_GAINED.xlsx",
+    r"FILE PATH",
     sheet_name="NUMAR_GAINED",
     converters={
         "DENUMIRE_SURSA": str,
@@ -165,7 +165,7 @@ sql_count = "SELECT COUNT(*) FROM dbo.GL_INT_NUMAR_LOST;"
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\i6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\01 NUMAR\GL_INT_NUMAR_LOST.xlsx",
+    r"FILE PATH",
     sheet_name="NUMAR_LOST",
     converters={
         "DENUMIRE_SURSA": str,

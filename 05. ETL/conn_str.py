@@ -1,9 +1,9 @@
 import os
 
 server = input("Enter server name: ")
-database = input("Eneter db name: ")
+database = input("Enter db name: ")
 username = input("Enter user name: ")
-password = input("Eneter password: ")
+password = input("Enter password: ")
 driver = "{ODBC Driver 17 for SQL Server}"
 tbl_name = input("Enter table name: ")
 

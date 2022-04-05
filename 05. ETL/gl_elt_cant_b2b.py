@@ -16,7 +16,7 @@ starttime = datetime.datetime.now()
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\I6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\03 CANT B2B\GL_INT_CANT_B2B.xlsx",
+    r"FILE PATH",
     sheet_name="CANT_B2B",
     converters={
         "TIP_SURSA": str,

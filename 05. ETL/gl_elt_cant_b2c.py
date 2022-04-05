@@ -15,7 +15,7 @@ sql_count = "SELECT COUNT(*) FROM dbo.GL_INT_CANT_MED_TOTAL"
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\i6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\02 CANT B2C\GL_INT_CANT_MED_TOTAL.xlsx",
+    r"FILE PATH",
     sheet_name="CANT_MED_AN",
     converters={
         "DIVIZIE": str,
@@ -64,7 +64,7 @@ sql_count = "SELECT COUNT(*) FROM dbo.GL_INT_CANT_MED_JUDET"
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\i6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\02 CANT B2C\GL_INT_CANT_MED_JUDET.xlsx",
+    r"FILE PATH",
     sheet_name="CANT_MED_JUDET",
     converters={
         "DIVIZIE": str,
@@ -116,7 +116,7 @@ sql_count = "SELECT COUNT(*) FROM dbo.GL_INT_CANT_B2C_LOST"
 print("01 - START : UPLOAD INREGISTRARI IN TABELA DE " + tbl_name + " !")
 
 src_int = pd.read_excel(
-    r"C:\Users\i6542\Documents\07. Baza de Date\03. Productiv\02. GL_MD\03 TABEL INT\02 CANT B2C\GL_INT_CANT_B2C_LOST.xlsx",
+    r"FILE PATH",
     sheet_name="CANT_B2C_LOST",
     converters={
         "INSTALATIE": str,
