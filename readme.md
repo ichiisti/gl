@@ -19,7 +19,7 @@ excel files
           1. level 1 - interface tables / raw data\
           2. level 2 - calculation / aggregate data\
           3. level 3 - data set table for analysis
-5. Data processing : for B2C costumers yearly quantities are calculated taking into account the county and historical data, for B2B clients the volumes are calculated taking into account historical data. Data processing is done using the T-SQL procedures. During data processing messages are inserted into log table.
+3. Data processing : for B2C costumers yearly quantities are calculated taking into account the county and historical data, for B2B clients the volumes are calculated taking into account historical data. Data processing is done using the T-SQL procedures. During data processing messages are inserted into log table.
 
 
 
